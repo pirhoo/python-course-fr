@@ -1,3 +1,1 @@
-# Programmering för journalister
-
-
+# Programming for journalists
