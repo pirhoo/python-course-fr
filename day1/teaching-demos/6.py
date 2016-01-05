@@ -1,6 +1,6 @@
 # coding: utf-8
 """
- Slå ihop strängar
+ Merge strings
 
 """
 

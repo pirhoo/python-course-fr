@@ -1,9 +1,8 @@
 # coding: utf-8
 """
- Slå ihop strängar
+ Merge strings
 
 """
 
 first_name = "Jens"
 last_name = "Finnäs"
-

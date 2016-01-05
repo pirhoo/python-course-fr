@@ -1,7 +1,7 @@
 # coding: utf-8
 """
-= betyder är!
-== betyder är?
+= means allocation
+== means interrogation
 
 """
 

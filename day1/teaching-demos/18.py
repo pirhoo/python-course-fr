@@ -1,7 +1,7 @@
 # coding: utf-8
 """
-Skriv en funktion som tar ett namn och en domän.
-Gör namnet mejlkompatibelt och skriv ut en fullständig e-postadress.
+Write a function that takes a name and a domain.
+Transform the email's name to be compatible then print a complete email address.
 """
 
 

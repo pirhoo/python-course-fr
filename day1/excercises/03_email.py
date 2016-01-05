@@ -4,9 +4,9 @@ first_name = "gustaf"
 last_name = "fridolin"
 domain = "riksdagen.se"
 
-""" 
-Uppgift: 
-- Skapa en variabel som kombinerar namn och domän till en e-postadress.
-- Skriv ut e-postadressen.
+"""
+Tasks:
+- Create a variable combining the name and the domain to create an email address.
+- Print email address.
 """
 email = ???

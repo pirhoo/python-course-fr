@@ -1,6 +1,6 @@
 # coding: utf-8
 """
- Skriv en nyhetsrubrik
+ Change title dynamically
 
 """
 
@@ -9,8 +9,8 @@ population2013 = 9600000
 diff = population2013 - population2012
 
 if population2013 > population2012:
-    heading = "Sveriges befolkning ökar"
+    heading = "Sweden's population increases"
 if population2013 < population2012:
-    heading = "Sveriges befolkning allt mindre"
+    heading = "Sweden's population decreases"
 
 print(heading)

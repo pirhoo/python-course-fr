@@ -1,18 +1,18 @@
 # coding: utf-8
 """
- Övning: Räkna ut arbetslösheten
+ Exercise: calculate unemployment
 
 """
 
 
-befolkning = 6058.1  # tusental
-arbetslosa = 424.8
-ej_i_arbetskraft = 986.6
-sysselsatta = 4646.6
+population = 6058.1  # in thousand
+unemployed = 424.8
+not_in_labor = 986.6
+employed = 4646.6
 
-andel_sysselsatta = sysselsatta / befolkning
-print(andel_sysselsatta * 100)  # andel sysselsatta
+employed_part = employed / population
+print(employed_part * 100)  # part of employed people in percent
 
-arbetsfor_befolkning = befolkning - ej_i_arbetskraft
-arbetsloshet = arbetslosa / arbetsfor_befolkning
-print(arbetsloshet * 100)  # andelen arbetslösa av den arbetsföra befolkningen
+labor_population = population - not_in_labor
+unemployment_part = unemployed / labor_population
+print(unemployment_part * 100)  # port of unemployed in the working-age population

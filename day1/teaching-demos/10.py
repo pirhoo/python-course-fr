@@ -1,18 +1,16 @@
 # coding: utf-8
 """
- Övning: Skriv ut arbetslösheten
+ Exercise: display unemployment
 
 """
 
 
-befolkning = 6058.1  # tusental
-arbetslosa = 424.8
-ej_i_arbetskraft = 986.6
-sysselsatta = 4646.6
+population = 6058.1  # in thousand
+unemployed = 424.8
+not_in_labor = 986.6
+employed = 4646.6
 
-andel_sysselsatta = sysselsatta / befolkning
+employed_part = employed / population
+unemployment_part = unemployed / (population - not_in_labor)
 
-arbetsfor_befolkning = befolkning - ej_i_arbetskraft
-arbetsloshet = arbetslosa / arbetsfor_befolkning
-
-print("Andelen sysselsatta är %s procent och arbetslösheten %s procent" % (andel_sysselsatta * 100, arbetsloshet * 100))
+print("The percentage of employed is %s percent and unemployment %s percent" % (employed_part * 100, unemployment_part * 100) )

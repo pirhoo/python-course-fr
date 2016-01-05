@@ -1,10 +1,10 @@
 # coding: utf-8
 """
- Räkna med variabler
+ Manipulate variables
 
 """
 
-population2012 = 9500000.0  # Notera decimaltecknet
+population2012 = 9500000.0  # Decimal notation
 population2013 = 9600000.0
 
 change = population2013 - population2012

@@ -1,6 +1,6 @@
 # coding: utf-8
 """
- Övning: Skriv en e-postadress
+ Exercise: write an email
 
 """
 
@@ -11,4 +11,5 @@ domain = "riksdagen.se"
 email = first_name + "." + last_name + "@" + domain
 print(email)
 
+# Alternative: string replacement
 email = "%s.%s@%s" % (first_name, last_name, domain)

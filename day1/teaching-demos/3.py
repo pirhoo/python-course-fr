@@ -1,10 +1,10 @@
 # coding: utf-8
 """
- Variabler och värdetyper
+ Variables and value types
 
 """
 
-name = "Valfrid Lindeman"
+name = "Jane Doe"
 age = 31
 height = 1.87
 

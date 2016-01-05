@@ -1,20 +1,21 @@
-Hemuppgift:
+
+Homework:
 ===========
 
-Hur har kommunerna klarat återhämtningen efter finanskrisen? Gör en funktion som skriver en kort notis baserat på följande parametrar:
+How cities recovered after the financial crisis?
+Do a function which writes a short note based on the following parameters:
 
-- kommunens namn
-- kommunens arbetslöshet 2014
-- kommunens arbetslöshet 2009
-- rikets arbetslöshet 2014
-- rikets arbetslöshet 2009
+* City's name
+* City's unemployment in 2014
+* City's unemployment in 2009
+* Total unemployment in 2014
+* Total unemployment in 2009
 
-Variera meningen med IF-satser beroende på input-värdena.
+Change the generated text with IF statements, according to the input values.
 
-Resultatet kan se ut ungefär så här:
-	
-	Arbetslösheten i Bengtsfors var år 2014 0,4 procentenheter högre än efter finanskrisen 2009. Den har gått upp från 9,9 procent till 10,3 procent.
-	Utvecklingen för kommunen har varit något sämre en i hela landet där arbetslöshet under samma tid vuxit med 0,3 procentenheter. 
+The result might look like something this:
 
-Spara skriptet på GitHub.
-
+> In 2014, unemployment in Bengtsfors was 0.4% higher than before the financial crisis in 2009.
+> It increased from 9.9% to 10.3%.
+> The development of this city has been a little worse than in the country
+> where the unemployment rate during the same period grew by 0.3%.

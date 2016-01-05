@@ -1,6 +1,6 @@
 # coding: utf-8
 """
-Funktioner
+ Function
 
 """
 
@@ -8,4 +8,6 @@ Funktioner
 def hello():
     print("Hello")
 
+hello()
+# Call a second time to print 'Hello' again
 hello()

@@ -1,6 +1,6 @@
 # coding: utf-8
 """
- Övning: Skriv en e-postadress, II
+ Exercise: write an email, part II
 """
 name = "Stefan Löfven"
 domain = "riksdagen.se"

@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Skriv en funktion som tar ett namn och en domän.
-Gör namnet mejlkompatibelt och skriv ut en fullständig e-postadress.
+Write a function that takes a name and a domain.
+Transform the email's name to be compatible then print a complete email address.
 """
 
 
 def emailify(name, domain):
     """
-     Koden ska göra följande:
-     1) Ersätta mellanslag med punkter i namnet.
-     2) Göra alla tecken till små bokstäver
-     3) Ersätta specialtecken (å,ä,ö,é) med tecken som funkar
-     i en e-postadress.
-     4) Printa den kompletta adressen! 
+     The code does as follow:
+     1) replace spaces with dots in the name.
+     2) Convert all characters in lowercase
+     3) Replace special characters (å, ä, ö, é) with characters that works in an e-mail.
+     4) Print the complete address!
     """
-    # Skriv din kod här! 
+    # Enter your code here!
 
 emailify("Annie Lööf", "riksdagen.se")
 emailify("David Lång", "riksdagen.se")
