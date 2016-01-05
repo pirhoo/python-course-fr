@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-""" ÖVNING
+""" Exercise
 """
 
 stockholm = {
@@ -14,16 +14,16 @@ solna = {
 }
 
 
-""" Hur många procentenheter har arbetslösheten stigit i Stockholm?
+""" How much unemployment increased in Stockholm?
 """
-# Skriv kod här!
+# Code here!
 
 
-""" Hur många procentenheter har arbetslösheten stigit i Solna?
+""" How much unemployment increased in Solna?
 """
-# Skriv kod här!
+# Code here!
 
 
-""" Hur mycket högra arbetslöshet hade Stockholm än Solna 2014?
+""" How much is unemployment higher in Stockholm than Solna in 2014?
 """
-# Skriv kod här!
+# Code here!

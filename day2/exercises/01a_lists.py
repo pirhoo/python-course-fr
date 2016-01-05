@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
 
-""" ÖVNING:
-    Fyll i luckorna i meningarna genom att ersätta XX med element ur listorna,
-    t.ex. parties[0] för Vänsterpartiet.
+"""
+ Exercise: fill the blanks in the sentences by replacing XP
+ with elements of lists, where parties[0] stands for Democratic Party.
 """
 
-politicians = ["Stefan Löfven", "Jimmie Åkesson",
-               "Åsa Romson", "Anna Kinberg-Batra"]
-parties = ["Vänsterpartiet", "Socialdemokraterna", "Miljöpartiet",
-           "Centern", "Folkpartiet", "Moderaterna", "Kristdemokraterna",
-           "Sverigedemokraterna"]
+politicians = ["Barack Obama", "Hillary Clinton", "Joe Biden",
+               "George W. Bush", "Donald Trump"]
 
-print("Efter långa förhandlingar bildade %s och %s till slut regering med %s som statsminister" % (XX, XX, XX))
-print("%s, som tar över %s efter Fredrik Reinfeldt, får en ledarroll i oppositionen" % (XX, XX))
+parties = ["Democratic Party", "Republican Party", "Libertarian Party",
+           "Green Party", "Constitution Party"]
+
+print("After a tense race, %s from the %s is elected as President of the USA." % (XX, XX) )
