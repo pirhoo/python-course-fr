@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
 
 """
-ÖVNING
-Gör en funktion som tar en arbetslöshetsprocent och kategoriserar den
-som "låg", "medel" eller "hög" med hjälp av IF-satser.
-Använd IF-satser
+Tâches: faire une fonction qui prend un pourcentage de chômage et retorune une
+catégrie comme "faible", "moyen" ou "élevé" à l'aide d'une condition IF.
 """
 
 
 def categorize_unemployment(unemployment):
     if unemployment < 5.0:
-        return "låg"
-
+        return "faible"
 
 print(categorize_unemployment(1.2))
 print(categorize_unemployment(10.3))

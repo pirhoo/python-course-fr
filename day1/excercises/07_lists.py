@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
- Exercise: fill the blanks in the sentences by replacing XP
- with elements of lists, where parties[0] stands for Democratic Party.
+ Exercise: remplacer les espaces vides dans la phrase par des éléments du tableau.
+ Pour rappel, ici parties[0] correspond à "Democratic Party".
 """
 
 politicians = ["Barack Obama", "Hillary Clinton", "Joe Biden",

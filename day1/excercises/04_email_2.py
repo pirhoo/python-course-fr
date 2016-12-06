@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-name = "Stefan Löfven"
+name = "Clémentine Autain"
 domain = "riksdagen.se"
 
 """
-Task:
-- Use .replace() to replace all spaces with dots and the "ö" by a "o" in the name.
-- Use .lower () to transform to lower case.
+Tâches:
+- Utilisez .replace() pour remplace les espaces par des points et les "é" par des "e"
+- Utilisez .lower() pour passer le texte en minuscule
 """
 
 email = ???

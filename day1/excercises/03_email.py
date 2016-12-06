@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-first_name = "gustaf"
-last_name = "fridolin"
-domain = "riksdagen.se"
+first_name = "clementine"
+last_name = "autain"
+domain = "iledefrance.fr"
 
 """
-Tasks:
-- Create a variable combining the name and the domain to create an email address.
-- Print email address.
+Tâches:
+- Créez une variable combinant ces 3 éléments pour créer un email
+- Afficher cet email
 """
 email = ???
