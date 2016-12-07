@@ -15,4 +15,4 @@ counter = 0
 for row in csv_file:
     print(row)
 
-print("Il y a %s lignes dans ce fichier CSV!" % counter)
+print(u"Il y a %s lignes dans ce fichier CSV!" % counter)

@@ -2,7 +2,7 @@
 import csv
 
 # On ouvre le fichier comme du texte
-in_file = open("unemployment.csv", 'rb')
+in_file = open("./goodiebag/unemployment.csv", 'rb')
 # On interprête ce fichier comme un CSV
 csv_file = csv.DictReader(in_file, delimiter=';')
 
@@ -12,7 +12,7 @@ une histoire sur le taux de chômage de chaque des villes.
 """
 
 def write_story(municipality, unemployment_2009, unemployment_2014):
-    story = "Voici quelques info sur le taux de chomage à %s" % municipality
+    story = u"Voici quelques info sur le taux de chomage à %s" % municipality
     # Codez ici
     return story
 
