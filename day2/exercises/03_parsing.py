@@ -4,7 +4,7 @@ import urllib2
 # Si BeautifulSoup n'est pas installé: pip install beautifulsoup4
 from bs4 import BeautifulSoup
 
-# L'URL pour trouver le pays correspondant
+# L'URL pour trouver le pays correspondant à une ip ou un nom de domaine
 infourl = 'http://freegeoip.net/xml/pirhoo.com'
 # On ouvre l'autre URL et on stock le resultat dans response
 infobody = urllib2.urlopen(infourl).read()
