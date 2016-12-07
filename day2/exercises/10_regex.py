@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import urllib2
-# Un petit utilitaire fait maison pour écrire un CSV avec des Dictionaires et Unicode
-from goodiebag.writer import UnicodeWriter
+import re
 # Si BeautifulSoup n'est pas installé: pip install beautifulsoup4
 from bs4 import BeautifulSoup
 
@@ -16,7 +15,7 @@ def save_ad(soup):
     # On stock plusieurs valeurs dans un dictionaire nommé "values" et on ajoute
     values = {
         'title':       clean(soup.select('h1')[0].text),
-        'description': clean(soup.select('.line.properties_description')[0].text),
+        'description': clean(soup.select('.properties_description')[0].text),
         'price':       clean(soup.select('.item_price .value')[0].text),
         'city':        clean(soup.select('.line_city .value')[0].text)
     }
@@ -45,11 +44,13 @@ def fetch_list(page = 1):
             print u"Téléchargement de %s" % url
             # On appelle ici l'autre fonction pour télécharger une annonce
             fetch_ad(url)
-            break
 
 # Toutes les annonces de la page 1 sont stockées dans la liste "ads"
 fetch_list(1)
-# On affiche le resultat au format CSV
-writer = UnicodeWriter(open("./ads.csv", 'w'), fieldnames=['title', 'price', 'city', 'description'])
-# Ajoute toutes les lignes une par une
-( writer.writerow(ad) for ad in ads  )
+# Parcours la liste des annonces
+for ad in ads:
+    # Trouve toute les occurences de la regex pour trouver un numéro de téléphone
+    matches = re.search('', ad['description'])
+    # Si matches n'est pas None, ça veut dire qu'on a trouvé des occurences
+    if matches is not None:
+        print matches.group(0)
