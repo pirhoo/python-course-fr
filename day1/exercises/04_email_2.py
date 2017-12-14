@@ -9,4 +9,7 @@ Tâches:
 - Utilisez .lower() pour passer le texte en minuscule
 """
 
-email = ???
+name = name.lower()
+name = name.replace(" ", ".").replace("é", "e")
+email = ("%s@%s") % (name, domain)
+print(email)
