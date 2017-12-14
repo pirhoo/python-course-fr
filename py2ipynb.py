@@ -1,5 +1,8 @@
-"""Create a notebook containing code from a script.
-Run as:  python py2ipynb.py my_script.py
+"""
+Create a notebook containing code from a script.
+
+Convert one: python py2ipynb.py exercises/01_hello_world.py
+Convert all: find exercises/*.py -exec python py2ipynb.py {} \;
 """
 import sys
 
