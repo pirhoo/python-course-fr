@@ -14,8 +14,7 @@ Utilisez des conditions IF qui prennent en compte les valeurs reçus.
 Le résultat doit ressembler à ça:
 
 ```
-En 2016, le chômage à Paris était X% plus haut qu'avant la crise financière de 2009.
-Il est passé de X% à Y%.
-Le dévelopement de cette ville a été un peu moins bon que celui du pays
-où le taux de chômage pendant la même période a augmenté de X%.
+In 2014, unemployment in Tours was 1.3 higher than before the financial crisis in 2009.
+It increased from 7.8% to 9.1%.
+The development of this city has been a little worse than in the country where the unemployment rate during the same period grew by 0.8
 ```
