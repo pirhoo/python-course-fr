@@ -3,3 +3,4 @@ env
 *.pyc
 *.db
 ads.csv
+exercises/.ipynb_checkpoints
