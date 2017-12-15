@@ -19,5 +19,5 @@ solna = {
 # Code here!
 
 
-""" De combien de pourcent le chomage est plus élevé à Solna qu'à Stockholm en 2014 ? """
+""" De combien de points le chomage est plus élevé à Stockholm  qu'à Solna en 2014 ? """
 # Code here!
