@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-politicians = [
+unicorns = [
     "Marie-Do AESCHLIMANN",
     "Samira AIDOUD",
     "Magali ALEXANDRE",
