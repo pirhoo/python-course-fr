@@ -2,7 +2,7 @@
 import csv
 
 # On ouvre le fichier comme du texte
-in_file = open("./goodiebag/unemployment.csv", 'rb')
+in_file = open("../goodiebag/unemployment.csv", 'rt')
 # On interprête ce fichier comme un CSV
 csv_file = csv.DictReader(in_file, delimiter=';')
 
