@@ -2,7 +2,7 @@
 
 import urllib2
 # L'URL pour trouver le pays correspondant à une ip ou un nom de domaine
-infourl = 'http://freegeoip.net/xml/pirhoo.com'
+infourl = 'http://ip-api.com/xml/pirhoo.com'
 
 
 """

@@ -12,5 +12,4 @@ html = response.read()
 """
 Tâches:
 - afficher le contenu de la page dans la console
-- ouvrir une autre page et afficher son contenu
 """

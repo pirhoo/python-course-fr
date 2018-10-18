@@ -5,7 +5,7 @@ import urllib2
 from bs4 import BeautifulSoup
 
 # L'URL pour trouver le pays correspondant à une ip ou un nom de domaine
-infourl = 'http://freegeoip.net/xml/pirhoo.com'
+infourl = 'http://ip-api.com/xml/pirhoo.com'
 # On ouvre l'autre URL et on stock le resultat dans response
 infobody = urllib2.urlopen(infourl).read()
 # Ce resultat est au format XML (comme du HTML),
