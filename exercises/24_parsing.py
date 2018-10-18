@@ -7,6 +7,6 @@ from bs4 import BeautifulSoup
 """
 Tâches:
 - obtenir votre IP avec apify
-- utiliser cette IP pour obtenir plus d'info sur freegeoip
+- utiliser cette IP pour obtenir plus d'info sur ip-api.com
 - afficher une phrase "L'ip %s est localisé en %s"
 """
