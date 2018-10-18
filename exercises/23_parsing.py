@@ -7,12 +7,12 @@ from bs4 import BeautifulSoup
 # L'URL pour trouver le pays correspondant à une ip ou un nom de domaine
 infourl = 'http://ip-api.com/xml/pirhoo.com'
 # On ouvre l'autre URL et on stock le resultat dans response
-infobody = urllib2.urlopen(infourl).read()
+xml = urllib2.urlopen(infourl).read()
 # Ce resultat est au format XML (comme du HTML),
 # il faut que Python puisse le comprendre
-soup = BeautifulSoup(infobody, 'html.parser')
+soup = BeautifulSoup(xml, 'html.parser')
 # Affiche des valeur
-print u"Pays: %s" % soup.response.countryname.text
+print u"Pays: %s" % soup.query.country.text
 
 """
 Tâches:
