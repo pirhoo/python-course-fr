@@ -7,7 +7,7 @@ Voir 06_robot_writer.md pour les consignes
 total_unemployment_2009 = 8.8
 total_unemployment_2016 = 9.6
 
-def write_story(municipality. unemployment_2009, unemployment_2016):
+def write_story(municipality, unemployment_2009, unemployment_2016):
     text = "Générer une histoire..."
     print(text)
 
