@@ -56,7 +56,7 @@ def fetch_list(page = 0):
             "price": clean_price(select_text(item, '.lvprice')),
             "title": select_text(item, '.lvtitle .vip'),
             "url": url,
-            "seller": select_text(ad, '..mbg-nw'),
+            "seller": select_text(ad, '.mbg-nw'),
             "description": select_text(ad, '.bsi-cnt')
         })
 
