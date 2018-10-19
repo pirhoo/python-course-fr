@@ -1,4 +1,5 @@
 # %load 31_saving.py
+# %load 31_saving.py
 
 import urllib2
 import re
@@ -48,7 +49,7 @@ def fetch_list(page = 0):
     # Tous les éléments de la liste
     list_items = soup.select(".lvresult")
 
-    for item in list_items[0:2]:
+    for item in list_items[0:15]:
         url = select_href(item, '.lvtitle .vip')
         ad = fetch_ad(url)
 
