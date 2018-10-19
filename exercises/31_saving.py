@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# %load 31_saving.py
 
 import urllib2
 import re
@@ -12,6 +12,8 @@ def select_text(soup, selector):
     elements = soup.select(selector)
     if len(elements) > 0:
         return elements[0].text.strip()
+    else:
+        return ''
 
 def select_href(soup, selector):
     elements = soup.select(selector)
@@ -46,12 +48,12 @@ def fetch_list(page = 0):
     # Tous les éléments de la liste
     list_items = soup.select(".lvresult")
 
-    for item in list_items[0:10]:
+    for item in list_items[0:2]:
         url = select_href(item, '.lvtitle .vip')
         ad = fetch_ad(url)
 
         ads.append({
-            "price": clean_price(select_text(item, '.lvprice')),
+            "price": str(clean_price(select_text(item, '.lvprice'))),
             "title": select_text(item, '.lvtitle .vip'),
             "url": url,
             "seller": select_text(ad, '..mbg-nw'),
@@ -66,9 +68,12 @@ for ad in ads:
     matches = re.search('\d{10}', ad['description'])
     # Si matches n'est pas None, ça veut dire qu'on a trouvé des occurences
     if matches is not None:
-        print matches.group(0)
+        ad["phone"] = matches.group(0)
 
-# On affiche le resultat au format CSV
-writer = UnicodeWriter(open("./ads.csv", 'w'), fieldnames=['price', 'title', 'url', 'seller'])
-# Ajoute toutes les lignes une par une
-( writer.writerow(ad) for ad in ads  )
+with open("./ads.csv", 'w') as f:
+    # On affiche le resultat au format CSV
+    writer = UnicodeWriter(f, fieldnames=['price', 'title', 'url', 'seller', 'description'])
+    # Ajoute toutes les lignes une par une
+    for ad in ads:
+        writer.writerow(ad)
+    f.close()
